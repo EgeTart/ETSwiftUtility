@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ETSwiftUtility_Example' do
+  pod 'ETSwiftUtility', :path => '../'
+
+  target 'ETSwiftUtility_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
